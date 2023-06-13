@@ -29,6 +29,7 @@ const Login = ({ onLogin }) => {
             className="form-control"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
+            placeholder='username is admin'
           />
         </div>
         <div className="form-group">
@@ -39,6 +40,7 @@ const Login = ({ onLogin }) => {
             className="form-control"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
+            placeholder='password is password'
           />
         </div>
         {error && <p className="text-danger">{error}</p>}
