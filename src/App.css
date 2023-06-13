@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+.container {
+  margin-top: 80px; /* Adjust the margin-top value to create the desired space below the fixed Navbar */
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
